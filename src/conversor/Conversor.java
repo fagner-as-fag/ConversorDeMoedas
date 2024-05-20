@@ -11,7 +11,7 @@ public class Conversor {
         double Razao = y / x;
         System.out.println(valor);
         valor = valor * Razao;
-        System.out.println("O valor após conversão é " + valor + "\n");
+        System.out.println("O valor após conversão é " + valor + " Reais"+"\n");
         return valor;
     }
 
@@ -22,7 +22,7 @@ public class Conversor {
         double Razao = x / y;
         System.out.println(valor);
         valor = valor * Razao;
-        System.out.println("O valor após conversão é " + valor + "\n");
+        System.out.println("O valor após conversão é " + valor +"+ Dolares" + "\n");
         return valor;
     }
 
@@ -31,7 +31,7 @@ public class Conversor {
         double y = moeda.getPesoArgentino();
         double Razao = y / x;
         valor = valor * Razao;
-        System.out.println("O valor após conversão é " + valor + "\n");
+        System.out.println("O valor após conversão é " + valor + " Pesos Argentinos"+"\n");
         return valor;
     }
 
@@ -40,7 +40,7 @@ public class Conversor {
         double y = moeda.getPesoArgentino();
         double Razao = x / y;
         valor = valor * Razao;
-        System.out.println("O valor após conversão é " + valor + "\n");
+        System.out.println("O valor após conversão é " + valor +" dolares"+ "\n");
         return valor;
     }
 
@@ -49,7 +49,7 @@ public class Conversor {
         double y = moeda.getPesoColombiano();
         double Razao = y / x;
         valor = valor * Razao;
-        System.out.println("O valor após conversão é " + valor + "\n");
+        System.out.println("O valor após conversão é " + valor +" Pesos Colombianos"+ "\n");
         return valor;
     }
 
@@ -58,7 +58,7 @@ public class Conversor {
         double y = moeda.getPesoColombiano();
         double Razao = x / y;
         valor = valor * Razao;
-        System.out.println("O valor após conversão é " + valor + "\n");
+        System.out.println("O valor após conversão é " + valor +" dolares"+ "\n");
         return valor;
     }
 
@@ -69,7 +69,7 @@ public class Conversor {
         double Razao = 0;
         Razao = y /x ;
         valor = valor * Razao;
-        System.out.println("O valor após conversão é " + valor + "\n");
+        System.out.println("O valor após conversão é " + valor +" euros"+ "\n");
         return valor;
     }
 
@@ -80,7 +80,7 @@ public class Conversor {
         double Razao = 0;
         Razao = x / y;
         valor = valor * Razao;
-        System.out.println("O valor após conversão é " + valor + "\n");
+        System.out.println("O valor após conversão é " + valor +" dolares"+ "\n");
         return valor;
     }
 
